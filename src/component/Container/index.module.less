@@ -1,0 +1,148 @@
+.mainContainer {
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  position: relative;
+
+  .sideContainer, .foldSideBar {
+    height: 90%;
+    transition: width 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f232b;
+    user-select: none;
+
+    .sideHeader {
+      width: 100%;
+      height: 30px;
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        display: flex;
+        width: calc(80% - 10px);
+        height: 30px;
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+
+    .sideItem {
+      display: flex;
+      width: 100%;
+      height: 40px;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+
+      &:hover {
+        background-color: #0f1115;
+      }
+
+      .sideItemContainer {
+        position: relative;
+        width: 80%;
+        height: 40px;
+        line-height: 40px;
+        white-space: nowrap;
+        overflow: hidden;
+
+        div {
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+        .sideItemIcon {
+          width: 20px;
+          height: 20px;
+          line-height: 20px;
+          margin-left: 10px;
+          margin-right: 10px;
+
+          svg {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    .sideFooter {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      height: 40px;
+
+
+      .foldIconContainer {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: 10px;
+        line-height: 30px;
+
+        svg {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .sideContainer {
+    width: 192px;
+  }
+
+  .foldSideBar {
+    width: 50px;
+  }
+
+  .contentContainer {
+    width: calc(100% - 192px);
+    height: 90%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.5s;
+  }
+
+  .footerContainer {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333434;
+    border-top: 10px solid #4b4b4b;
+    color: #4b4b4b;
+    overflow: hidden;
+
+    & a {
+      color: #4b4b4b;
+      text-decoration: none;
+    }
+
+    & a:hover {
+      color: red;
+    }
+  }
+}
