@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/canvas/static/css/main.602a6508.chunk.css",
+    "main.js": "/canvas/static/js/main.4402ae37.chunk.js",
+    "runtime-main.js": "/canvas/static/js/runtime-main.80f828ac.js",
+    "static/css/2.9699e7a6.chunk.css": "/canvas/static/css/2.9699e7a6.chunk.css",
+    "static/js/2.0557d102.chunk.js": "/canvas/static/js/2.0557d102.chunk.js",
+    "static/js/3.06ff1082.chunk.js": "/canvas/static/js/3.06ff1082.chunk.js",
+    "static/js/4.6724007f.chunk.js": "/canvas/static/js/4.6724007f.chunk.js",
+    "static/css/5.95a1ce21.chunk.css": "/canvas/static/css/5.95a1ce21.chunk.css",
+    "static/js/5.16d1a0c1.chunk.js": "/canvas/static/js/5.16d1a0c1.chunk.js",
+    "static/css/6.e9871882.chunk.css": "/canvas/static/css/6.e9871882.chunk.css",
+    "static/js/6.b344ebbd.chunk.js": "/canvas/static/js/6.b344ebbd.chunk.js",
+    "static/css/7.b9621953.chunk.css": "/canvas/static/css/7.b9621953.chunk.css",
+    "static/js/7.e3ed554d.chunk.js": "/canvas/static/js/7.e3ed554d.chunk.js",
+    "static/css/8.781ef42f.chunk.css": "/canvas/static/css/8.781ef42f.chunk.css",
+    "static/js/8.e1f07a40.chunk.js": "/canvas/static/js/8.e1f07a40.chunk.js",
+    "static/css/9.7eda7846.chunk.css": "/canvas/static/css/9.7eda7846.chunk.css",
+    "static/js/9.320fa3a6.chunk.js": "/canvas/static/js/9.320fa3a6.chunk.js",
+    "static/css/10.47a47bb3.chunk.css": "/canvas/static/css/10.47a47bb3.chunk.css",
+    "static/js/10.4873dfdf.chunk.js": "/canvas/static/js/10.4873dfdf.chunk.js",
+    "static/css/11.781ef42f.chunk.css": "/canvas/static/css/11.781ef42f.chunk.css",
+    "static/js/11.264c7d6f.chunk.js": "/canvas/static/js/11.264c7d6f.chunk.js",
+    "static/js/12.4a977f13.chunk.js": "/canvas/static/js/12.4a977f13.chunk.js",
+    "index.html": "/canvas/index.html",
+    "static/js/12.4a977f13.chunk.js.LICENSE.txt": "/canvas/static/js/12.4a977f13.chunk.js.LICENSE.txt",
+    "static/js/2.0557d102.chunk.js.LICENSE.txt": "/canvas/static/js/2.0557d102.chunk.js.LICENSE.txt",
+    "static/js/3.06ff1082.chunk.js.LICENSE.txt": "/canvas/static/js/3.06ff1082.chunk.js.LICENSE.txt",
+    "static/js/4.6724007f.chunk.js.LICENSE.txt": "/canvas/static/js/4.6724007f.chunk.js.LICENSE.txt",
+    "static/media/katex.min.css": "/canvas/static/media/KaTeX_Typewriter-Regular.c5c02d76.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80f828ac.js",
+    "static/js/4.6724007f.chunk.js",
+    "static/css/main.602a6508.chunk.css",
+    "static/js/main.4402ae37.chunk.js"
+  ]
+}
